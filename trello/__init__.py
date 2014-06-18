@@ -465,22 +465,6 @@ class Card(object):
     """
 
     @property
-    def member_id(self):
-        return self.idMembers
-
-    @property
-    def short_id(self):
-        return self.idShort
-
-    @property
-    def list_id(self):
-        return self.idList
-
-    @property
-    def board_id(self):
-        return self.idBoard
-
-    @property
     def description(self):
         return self.desc
 
